@@ -1,0 +1,82 @@
+Level_1:
+  - Mirror Gate to Level 10
+Level_2:
+  - Arch Gate to Level 4
+  - Arch Gate to Level 5
+  - Arch Gate to Level 6
+Level_3:
+  - Arch Gate to Level 5
+  - Arch Gate to Level 6
+Level_4:
+  - Arch Gate to Level 2
+  - Arch Gate to Level 6
+Level_5:
+  - Arch Gate to Level 2
+  - Arch Gate to Level 3
+  - Arch Gate to Level 6
+Level_6:
+  - Arch Gate to Level 2
+  - Arch Gate to Level 3
+  - Arch Gate to Level 4
+  - Arch Gate to Level 5
+  - Arch Gate to Level 8
+  - Arch Gate to Level 9
+  - Mirror Gate to Level 10
+  - Arch Gate to Level 11
+  - Arch Gate to Level 12
+Level_7:
+  - Arch Gate to Level 9
+  - Mirror Gate to Level 10
+  - Arch Gate to Level 11
+Level_8:
+  - Arch Gate to Level 6
+  - Mirror Gate to Level 10
+  - Standing Gate to Level 11
+Level_9:
+  - Arch Gate to Level 6
+  - Arch Gate to Level 7
+  - Arch Gate to Level 14
+Level_10:
+  - Mirror Gate to Level 1
+  - Mirror Gate to Level 6
+  - Mirror Gate to Level 7
+  - Mirror Gate to Level 8
+  - Mirror Gate to Level 12
+Level_11:
+  - Arch Gate to Level 6
+  - Arch Gate to Level 7
+  - Standing Gate to Level 8
+Level_12:
+  - Arch Gate to Level 6
+  - Mirror Gate to Level 10
+  - Standing Gate to Level 14
+  - Standing Gate to Level 19
+Level_13:
+  - Arch Gate to Level 6
+Level_14:
+  - Arch Gate to Level 9
+  - Standing Gate to Level 12
+  - Arch Gate to Level 17
+Level_15:
+  - Arch Gate to Level 17
+  - Arch Gate to Level 18
+  - Arch Gate to Level 20
+Level_17:
+  - Arch Gate to Level 14
+  - Arch Gate to Level 15
+  - Standing Gate to Level 19
+Level_18:
+  - Arch Gate to Level 6
+  - Arch Gate to Level 15
+Level_19:
+  - Standing Gate to Level 12
+  - Standing Gate to Level 17
+  - Standing Gate to Level 21
+Level_20:
+  - Arch Gate to Level 15
+Level_21:
+  - Standing Gate to Level 19
+Level_22:
+  - Arch Gate to Level 23
+Level_23:
+  - Arch Gate to Level 22
