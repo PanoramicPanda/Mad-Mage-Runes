@@ -1,0 +1,36 @@
+Anarath:
+  Description: "Elder Rune of Protection and Sacrifice"
+  Bane: "The target must succeed on a Constitution saving throw (DC 22) or it can't regain hit points until a remove curse or greater restoration spell is cast on it."
+  Boon: "The target is immune to the blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, and stunned conditions. In addition, the target stabilizes immediately when it drops to 0 hit points. This boon effect lasts for 24 hours."
+Angras:
+  Description: "Elder Rune of War"
+  Bane: "The target must succeed on a Constitution saving throw (DC 22) or it gains vulnerability to all damage and a -2 penalty to death saving throws for 24 hours."
+  Boon: "when the target hits with an attack, the target can turn that hit into a critical hit, after which this boon effect ends."
+Halaster:
+  Description: "Elder Rune of the Mad Mage"
+  Bane: "The target must make a Constitution saving throw (DC 22), taking 20d6 force damage on a failed save, or half as much damage on a successful one."
+  Boon: "The target recovers its expended spell slots of 6th level and lower. If the target has no spell slots to recover, a magical shield surrounds the target for 1 hour instead. This shield grants the target resistance to all damage and can't be dispelled, though contact with an antimagic field destroys it."
+Korombos:
+  Description: "Elder Rune of Chaos"
+  Bane: "The target must succeed on a Wisdom saving throw (DC 22) or suffer the effect of a confusion spell with a duration of 1 minute."
+  Boon: "When the target rolls damage, it can reroll any of the damage dice once. It must use the new rolls, after which this boon effect ends."
+Laebos:
+  Description: "Elder Rune of Fire"
+  Bane: "The target must make a Dexterity saving throw (DC 22), taking 10d10 fire damage on a failed save, or half as much damage on a successful save."
+  Boon: "The target gains a pool of ten d6s. Up to two of these dice can be expended at a time and added to any damage roll the target makes when it hits with a weapon attack. The damage added by these dice is fire damage."
+Lammath:
+  Description: "Elder Rune of Security"
+  Bane: "For the next 24 hours, the target can't gain advantage on attack rolls, ability checks, or saving throws."
+  Boon: "Once within the next 24 hours, the target can use its reaction to reduce the damage it takes from one source by 10d6."
+Nchasme:
+  Description: "Elder Rune of Decision"
+  Bane: "The target must succeed on a Wisdom saving throw (DC 22) or be incapacitated for 1 hour. While incapacitated in this way, the target gains the following personality flaw, which supersedes any opposing flaw: 'I fundamentally disagree with everything anyone else says.'"
+  Boon: "The target can cast the augury spell as an action three times, requiring no components and with no chance of a random reading."
+Savaros:
+  Description: "Elder Rune of Goblinkind"
+  Bane: "All nonmagical coins and gems on the target's person vanish."
+  Boon: "The rune magically summons a goblin (use the goblin stat block in the Monster Manual), which appears in an unoccupied space within 20 feet of the target. The goblin is rude to everyone except the target and obeys the target's commands. The goblin vanishes in a puff of smoke if it drops to 0 hit points."
+Ullathar:
+  Description: "Elder Rune of Passage"
+  Bane: "The target must succeed on a Wisdom saving throw (DC 22) or be restrained for 24 hours."
+  Boon: "For the next 24 hours, the target gains the following benefits: /n- The effects of the freedom of movement spell./n- The ability to cast the knock spell at will, requiring no components."
