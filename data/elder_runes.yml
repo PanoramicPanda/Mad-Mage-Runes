@@ -5,7 +5,7 @@ Anarath:
 Angras:
   Description: "Elder Rune of War"
   Bane: "The target must succeed on a Constitution saving throw (DC 22) or it gains vulnerability to all damage and a -2 penalty to death saving throws for 24 hours."
-  Boon: "when the target hits with an attack, the target can turn that hit into a critical hit, after which this boon effect ends."
+  Boon: "When the target hits with an attack, the target can turn that hit into a critical hit, after which this boon effect ends."
 Halaster:
   Description: "Elder Rune of the Mad Mage"
   Bane: "The target must make a Constitution saving throw (DC 22), taking 20d6 force damage on a failed save, or half as much damage on a successful one."
@@ -33,4 +33,4 @@ Savaros:
 Ullathar:
   Description: "Elder Rune of Passage"
   Bane: "The target must succeed on a Wisdom saving throw (DC 22) or be restrained for 24 hours."
-  Boon: "For the next 24 hours, the target gains the following benefits: /n- The effects of the freedom of movement spell./n- The ability to cast the knock spell at will, requiring no components."
+  Boon: "For the next 24 hours, the target gains the following benefits: \n- The effects of the freedom of movement spell.\n- The ability to cast the knock spell at will, requiring no components."
