@@ -1,7 +1,8 @@
 # Mad Mage Runes
 
-A compilation of simple scripts to generate what Elder Runes are on which gates, which player gets
-targeted, and how many days it takes Halaster before he notices and casts a new one.
+This repo contains compilation of simple scripts to use alongside the D&D 5th Edition module **Dungeon of the Mad Mage**.
+They generate what Elder Runes are on which gates, which player gets targeted, and how many days it 
+takes Halaster before he notices and casts a new one.
 
 ## Scripts
 
