@@ -1,6 +1,6 @@
 easy_start: false
 hard_finish: false
-awareness: false # defaults to 23-level if left false
+awareness: false # Defaults to 23-level if left false
 fudge: false
 party_size: 4
-current_level: false
+current_level: false # Set to current level when using 'protect_entire_level.rb'
