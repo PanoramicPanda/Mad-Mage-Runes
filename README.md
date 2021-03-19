@@ -17,6 +17,7 @@ Below are their names, values, and functionality.
   * `easy_start=false` - Weights higher levels more towards Boon.
   * `hard_finish=false` - Weights lower levels more towards Bane.
   * `awareness=(23-level)` - The lower the number, the more aware Halaster is of the gate
-  needing a rune recast and will take shorter to do so.
+  needing a rune recast and will likely take shorter to do so. (Generates a random number
+    between 0 and awareness.)
   * `fudge=false` - Can be set to `'bane'` or `'boon'` to fudge the resulting rune type.
   * `party_size=4` - Sets size of party, used to determine which person gets affected.
