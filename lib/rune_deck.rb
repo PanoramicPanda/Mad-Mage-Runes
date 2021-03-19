@@ -5,7 +5,7 @@ class RuneDeck
   attr_reader :drawn_rune, :rune_description, :rune_effect, :affects_member_number, :recharge
   attr_accessor :level
 
-  def initialize
+  def initialize(party_size, awareness, fudge)
     @runes = YAML.load(File.open('data/elder_runes.yml'))
     @drawn_rune = nil
     @rune_description = nil
@@ -13,11 +13,14 @@ class RuneDeck
     @affects_member_number = nil
     @recharge = nil
     @level = 1
+    @party_size = party_size
+    @awareness = awareness
+    @fudge = fudge
   end
 
-  def draw_rune(party_size, awareness, fudge)
-    type = determine_type(fudge)
-    recharge_time = determine_awareness(awareness)
+  def draw_rune
+    type = determine_type
+    recharge_time = determine_awareness
     raise "Type must be ['Bane'] or ['Boon'] to function!" if (type!='Bane' && type!='Boon')
 
     rune = @runes.keys.sample
@@ -25,21 +28,21 @@ class RuneDeck
     @drawn_rune = "#{rune.possessive} #{type}"
     @rune_description = @runes[rune]['Description']
     @rune_effect = "Effect: #{@runes[rune][type]}"
-    @affects_member_number = "This rune will affect the #{(rand(party_size)+1).ordinalize} creature to pass through the gate."
+    @affects_member_number = "This rune will affect the #{(rand(@party_size)+1).ordinalize} creature to pass through the gate."
     @recharge = "Halaster will recast a rune on this gate in #{recharge_time}"
   end
 
-  def determine_type(fudge)
-    unless fudge
-      %w[Bane Boon].sample
+  def determine_type
+    if @fudge
+      @fudge.to_s.capitalize
     else
-      fudge.to_s.capitalize
+      %w[Bane Boon].sample
     end
   end
 
-  def determine_awareness(awareness)
-    awareness = 23-@level if awareness == false
-    time = rand(awareness)
+  def determine_awareness
+    @awareness = 23-@level if @awareness == false
+    time = rand(@awareness)
     if time == 0
       "#{rand(24) + 1} hour(s)."
     else
