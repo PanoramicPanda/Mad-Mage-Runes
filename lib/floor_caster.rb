@@ -24,6 +24,7 @@ class FloorCaster
       @runes.draw_rune
       gate_detail(gate)
       @runes.rune_details
+      puts "\n"
     end
 
   end
