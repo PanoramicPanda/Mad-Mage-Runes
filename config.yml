@@ -1,6 +1,6 @@
 easy_start: false
 hard_finish: false
-awareness: false
+awareness: false # defaults to 23-level if left false
 fudge: false
 party_size: 4
 current_level: false
