@@ -5,7 +5,8 @@ class RuneDeck
   attr_reader :drawn_rune, :rune_description, :rune_effect, :affects_member_number, :recharge
   attr_accessor :level
 
-  def initialize(party_size, awareness, fudge)
+  def initialize
+    @config = YAML.load(File.open('config.yml'))
     @runes = YAML.load(File.open('data/elder_runes.yml'))
     @drawn_rune = nil
     @rune_description = nil
@@ -13,9 +14,9 @@ class RuneDeck
     @affects_member_number = nil
     @recharge = nil
     @level = 1
-    @party_size = party_size
-    @awareness = awareness
-    @fudge = fudge
+    @party_size = @config['party_size']
+    @awareness = @config['awareness']
+    @fudge = @config['fudge']
   end
 
   def draw_rune
