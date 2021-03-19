@@ -36,8 +36,10 @@ class RuneDeck
   end
 
   def determine_awareness
-    @awareness = 23-@level if @awareness == false
-    time = rand(@awareness)
+    puts "level = #{@level}"
+    @awareness = 23-@level if @config['awareness'] == false
+    puts "awareness = #{@awareness}"
+    time = @awareness > 0 ? rand(@awareness) : 0
     if time == 0
       "#{rand(24) + 1} hour(s)."
     else
