@@ -3,3 +3,4 @@ hard_finish: false
 awareness: false
 fudge: false
 party_size: 4
+current_level: false
