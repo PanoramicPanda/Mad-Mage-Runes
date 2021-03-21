@@ -24,3 +24,7 @@ Below are their names, values, and functionality.
   * `party_size: 4` - Sets size of party, used to determine which person gets affected.
   * `current_level: false` - Set to current level when using `protect_entire_level.rb`. Tells the
     script which level to populate. 
+
+## How to Run
+
+No gems are needed to install, just simply run the scripts in your favorite Ruby runner!
