@@ -1,82 +1,270 @@
 Level_1:
-  - Mirror Gate to Level 10
+  - Mirror Gate to Level 10:
+      description: "Worked into the mirror’s stone frame is the graven image of a human wizard wielding a wand."
+      opening_method: "The gate opens for 1 minute when the mirror is touched with a magic wand that has at least 1 charge remaining."
+      minimum_level: 11
 Level_2:
-  - Arch Gate to Level 4
-  - Arch Gate to Level 5
-  - Arch Gate to Level 6
+  - Arch Gate to Level 4:
+      description: "Embedded in the middle of the room’s north wall is a stone arch, its frame engraved with images of falling coins. The arch’s keystone has a tiny slot in it."
+      opening_method: "Feeding a gold coin into the slot in the keystone causes the coin to disappear and the gate to open for 1 minute.Other coins placed in the slot disappear but don’t open the gate."
+      minimum_level: 8
+  - Arch Gate to Level 5:
+      description: "Close inspection reveals the image of a dead tree carved into its keystone."
+      opening_method: "Touching the arch with a dead twig or branch causes the gate to open for 1 minute."
+      minimum_level: 8
+  - Arch Gate to Level 6:
+      description: "Carved into the arch’s keystone is an image of a rust monster."
+      opening_method: "Touching the arch with a nonmagical item made entirely of ferrous metal (such as an iron spike) reduces the item to powdered rust and opens the gate for 1 minute."
+      minimum_level: 9
 Level_3:
-  - Arch Gate to Level 5
-  - Arch Gate to Level 6
+  - Arch Gate to Level 5:
+      description: "Its keystone and base stones each bear an engraving of an old man clutching a staff."
+      opening_method: "The gate opens for 1 minute when the arch is tapped three times with a staff of any kind."
+      minimum_level: 8
+  - Arch Gate to Level 6:
+      description: "The keystone of this arch is carved to look like a gold dragon wyrmling, its mouth agape."
+      opening_method: "The gate opens for 1 minute when a gemstone worth at least 100 gp is placed in the dragon’s mouth, which causes the dragon head to animate and chomp down on the gem (destroying it)."
+      minimum_level: 9
 Level_4:
-  - Arch Gate to Level 2
-  - Arch Gate to Level 6
+  - Arch Gate to Level 2:
+      description: "Embedded in the middle of the room’s north wall is a stone arch, its frame engraved with images of falling coins. The arch’s keystone has a tiny slot in it."
+      opening_method: "Feeding a gold coin into the slot in the keystone causes the coin to disappear and the gate to open for 1 minute.Other coins placed in the slot disappear but don’t open the gate."
+      minimum_level: 8
+  - Arch Gate to Level 6:
+      description: "Carved into the arch are six stone niches, each one containing a small stone figurine that weighs 1 pound. The figurines represent a black dragon, a unicorn, an umber hulk, an owlbear, a minotaur, and a manticore. Carved into the wall inside the arch is a stylized image of a mountain with a full moon symbol above it. Close inspection of the moon reveals a half-inch-diameter hole in the middle of it."
+      opening_method: "If the horn of the unicorn figurine is inserted into the hole in the moon symbol, the gate opens for 1 minute. None of the other figurines have protrusions that fit in the hole."
+      minimum_level: 9
 Level_5:
-  - Arch Gate to Level 2
-  - Arch Gate to Level 3
-  - Arch Gate to Level 6
+  - Arch Gate to Level 2:
+      description: "Close inspection reveals the image of a dead tree carved into its keystone."
+      opening_method: "Touching the arch with a dead twig or branch causes the gate to open for 1 minute."
+      minimum_level: 8
+  - Arch Gate to Level 3:
+      description: "Its keystone and base stones each bear an engraving of an old man clutching a staff."
+      opening_method: "The gate opens for 1 minute when the arch is tapped three times with a staff of any kind."
+      minimum_level: 8
+  - Arch Gate to Level 6:
+      description: "The arch is engraved with images of dancing dwarves."
+      opening_method: "Standing within 5 feet of the arch and imitating the moves of the dancing dwarves causes the gate to open for 1 minute. The dance requires 1 minute to perform."
+      minimum_level: 9
 Level_6:
-  - Arch Gate to Level 2
-  - Arch Gate to Level 3
-  - Arch Gate to Level 4
-  - Arch Gate to Level 5
-  - Arch Gate to Level 8
-  - Arch Gate to Level 9
-  - Mirror Gate to Level 10
-  - Arch Gate to Level 11
-  - Arch Gate to Level 12
+  - Arch Gate to Level 2:
+      description: "Carved into the arch’s keystone is an image of a rust monster."
+      opening_method: "Touching the arch with a nonmagical item made entirely of ferrous metal (such as an iron spike) reduces the item to powdered rust and opens the gate for 1 minute."
+      minimum_level: 9
+  - Arch Gate to Level 3:
+      description: "The keystone of this arch is carved to look like a gold dragon wyrmling, its mouth agape."
+      opening_method: "The gate opens for 1 minute when a gemstone worth at least 100 gp is placed in the dragon’s mouth, which causes the dragon head to animate and chomp down on the gem (destroying it)."
+      minimum_level: 9
+  - Arch Gate to Level 4:
+      description: "Carved into the arch are six stone niches, each one containing a small stone figurine that weighs 1 pound. The figurines represent a black dragon, a unicorn, an umber hulk, an owlbear, a minotaur, and a manticore. Carved into the wall inside the arch is a stylized image of a mountain with a full moon symbol above it. Close inspection of the moon reveals a half-inch-diameter hole in the middle of it."
+      opening_method: "If the horn of the unicorn figurine is inserted into the hole in the moon symbol, the gate opens for 1 minute. None of the other figurines have protrusions that fit in the hole."
+      minimum_level: 9
+  - Arch Gate to Level 5:
+      description: "The arch is engraved with images of dancing dwarves."
+      opening_method: "Standing within 5 feet of the arch and imitating the moves of the dancing dwarves causes the gate to open for 1 minute. The dance requires 1 minute to perform."
+      minimum_level: 9
+  - Arch Gate to Level 8:
+      description: "The space inside the arch bears a bas-relief of a female dwarf standing with her eyes closed. A large keyhole is carved into the head of a stone hammer she clutches to her chest."
+      opening_method: "If the stone key from area 14a on level 2 is inserted into the keyhole, the bas-relief and the key vanish as the gate opens for 1 minute. When the gate closes, the bas-relief reappears, and the key is ejected from its keyhole.\n\tA character can open the gate without the stone key by using an action to pick the lock, requiring a successful DC 20 Dexterity check using thieves’ tools. On a failed check, the dwarf’s eyes open and shoot forth beams of light. Each creature within 10 feet of the arch must make a DC 16 Dexterity saving throw, taking 22 (4d10) radiant damage on a failed save, or half as much damage on a successful one."
+      minimum_level: 10
+  - Arch Gate to Level 9:
+      description: "A stone arch embedded in the south wall is engraved with images of beholders, flumphs, and stirges."
+      opening_method: "If a creature flies or levitates within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 10
+  - Mirror Gate to Level 10:
+      description: 'Carved into its frame are dozens of lidless eyes and the following phrase in Common: “The gate cannot hide from those it cannot see.”'
+      opening_method: "The gate opens for 1 minute when an invisible creature stands directly in front of the mirror."
+      minimum_level: 11
+  - Arch Gate to Level 11:
+      description: "Carved into the arch’s keystone is a hand-shaped indentation with a sigil representing magic scribed into the palm."
+      opening_method: "Casting the mage hand cantrip and pressing its spectral fingers into the keystone’s indentation opens the gate for 1 minute."
+      minimum_level: 11
+  - Arch Gate to Level 12:
+      description: "Carved into its keystone is an image of a hand pouring ale from a flagon."
+      opening_method: "If one pint or more of any liquid is poured on the floor within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 12
+  - Arch Gate to Level 13:
+      description: "The arch is decorated with inlaid images of dancing goblins. Carved into the arch’s keystone is the letter D."
+      opening_method: "The gate opens for 1 minute if a creature stands within 5 feet of the arch and either sings a D note or plays a D note on a musical instrument."
+      minimum_level: 9
+  - Arch Gate to Level 18:
+      description: "Its sides are carved in the form of scantily clad elves (one male and one female) holding fingers to their lips in a gesture of silence."
+      opening_method: "If a silence spell is cast so that the arch is in the spell’s area, the gate opens for 1 minute."
+      minimum_level: 15
 Level_7:
-  - Arch Gate to Level 9
-  - Mirror Gate to Level 10
-  - Arch Gate to Level 11
+  - Arch Gate to Level 9:
+      description: "Inscribed on its wall is the following riddle in Common: “What appears once in an hour, twice in a blue moon, and never in sunshine?” \n\tThe answer is “The letter O.”"
+      opening_method: "If the riddle is answered aloud and correctly by someone within 30 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 10
+  - Mirror Gate to Level 10:
+      description: "Etched into the bottom of the mirror’s stone frame are the letters T-U-O-Y-A-W (a reflection of W-A-Y-O-U-T)."
+      opening_method: "If a creature speaks the words “Way out!” while pointing at the mirror, the gate opens for 1 minute."
+      minimum_level: 11
+  - Arch Gate to Level 11:
+      description: "Carved into the arch’s keystone is a hand clutching a lit torch."
+      opening_method: "If a lit torch is brought within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 11
 Level_8:
-  - Arch Gate to Level 6
-  - Mirror Gate to Level 10
-  - Standing Gate to Level 11
+  - Arch Gate to Level 6:
+      description: "The space inside the arch bears a bas-relief of a female dwarf standing with her eyes closed. A large keyhole is carved into the head of a stone hammer she clutches to her chest."
+      opening_method: "If the stone key from area 14a on level 2 is inserted into the keyhole, the bas-relief and the key vanish as the gate opens for 1 minute. When the gate closes, the bas-relief reappears, and the key is ejected from its keyhole.\n\tA character can open the gate without the stone key by using an action to pick the lock, requiring a successful DC 20 Dexterity check using thieves’ tools. On a failed check, the dwarf’s eyes open and shoot forth beams of light. Each creature within 10 feet of the arch must make a DC 16 Dexterity saving throw, taking 22 (4d10) radiant damage on a failed save, or half as much damage on a successful one."
+      minimum_level: 10
+  - Mirror Gate to Level 10:
+      description: "The mirror’s frame is composed of an assemblage of hundreds of tiny, interlocking stone gears."
+      opening_method: "Any creature that inspects the frame and succeeds on a DC 15 Wisdom (Perception) check sees that one of the gears has popped out slightly. If it is pressed, the gear locks in place, causing all the gears to turn and the gate to open for 1 minute. When the gate closes, a different random gear pops out slightly, causing all the gears to lock again."
+      minimum_level: 11
+  - Standing Gate to Level 11:
+      description: "Two pillars with giant stone snakes wrapped around them rise from the muck. Chiseled into the lintel stone across the top are the words “DON THE CRYSTAL CROWN” in Dwarvish."
+      opening_method: "The gate opens for 1 minute if a creature wears King Melair’s crystal crown (see level 6, area 11d) while standing within 5 feet of it."
+      minimum_level: 11
 Level_9:
-  - Arch Gate to Level 6
-  - Arch Gate to Level 7
-  - Arch Gate to Level 14
+  - Arch Gate to Level 6:
+      description: "A stone arch embedded in the south wall is engraved with images of beholders, flumphs, and stirges."
+      opening_method: "If a creature flies or levitates within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 10
+  - Arch Gate to Level 7:
+      description: "Inscribed on its wall is the following riddle in Common: “What appears once in an hour, twice in a blue moon, and never in sunshine?” \n\tThe answer is “The letter O.”"
+      opening_method: "If the riddle is answered aloud and correctly by someone within 30 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 10
+  - Arch Gate to Level 14:
+      description: "It has the image of an open book carved into its keystone."
+      opening_method: "Holding an open book while standing within 5 feet of the arch causes the gate to open for 1 minute. The book turns to dust as the gate opens, even if it is a spellbook."
+      minimum_level: 13
 Level_10:
-  - Mirror Gate to Level 1
-  - Mirror Gate to Level 6
-  - Mirror Gate to Level 7
-  - Mirror Gate to Level 8
-  - Mirror Gate to Level 12
+  - Mirror Gate to Level 1:
+      description: "Worked into the mirror’s stone frame is the graven image of a human wizard wielding a wand."
+      opening_method: "The gate opens for 1 minute when the mirror is touched with a magic wand that has at least 1 charge remaining."
+      minimum_level: 11
+  - Mirror Gate to Level 6:
+      description: 'Carved into its frame are dozens of lidless eyes and the following phrase in Common: “The gate cannot hide from those it cannot see.”'
+      opening_method: "The gate opens for 1 minute when an invisible creature stands directly in front of the mirror."
+      minimum_level: 11
+  - Mirror Gate to Level 7:
+      description: "Etched into the bottom of the mirror’s stone frame are the letters T-U-O-Y-A-W (a reflection of W-A-Y-O-U-T)."
+      opening_method: "If a creature speaks the words “Way out!” while pointing at the mirror, the gate opens for 1 minute."
+      minimum_level: 11
+  - Mirror Gate to Level 8:
+      description: "The mirror’s frame is composed of an assemblage of hundreds of tiny, interlocking stone gears."
+      opening_method: "Any creature that inspects the frame and succeeds on a DC 15 Wisdom (Perception) check sees that one of the gears has popped out slightly. If it is pressed, the gear locks in place, causing all the gears to turn and the gate to open for 1 minute. When the gate closes, a different random gear pops out slightly, causing all the gears to lock again."
+      minimum_level: 11
+  - Mirror Gate to Level 12:
+      description: "The mirror’s stone frame is carved with twisting vines, woven into which are the actual skulls of eleven human adventurers killed in Undermountain. Carved into the bottom of the frame are the following words in Celestial: “The dead know the secret.” "
+      opening_method: "Speaking the proper command word (“Axallian”) while standing in front of the mirror opens the gate for 1 minute."
+      minimum_level: 12
 Level_11:
-  - Arch Gate to Level 6
-  - Arch Gate to Level 7
-  - Standing Gate to Level 8
+  - Arch Gate to Level 6:
+      description: "Carved into the arch’s keystone is a hand-shaped indentation with a sigil representing magic scribed into the palm."
+      opening_method: "Casting the mage hand cantrip and pressing its spectral fingers into the keystone’s indentation opens the gate for 1 minute."
+      minimum_level: 11
+  - Arch Gate to Level 7:
+      description: "Carved into the arch’s keystone is a hand clutching a lit torch."
+      opening_method: "If a lit torch is brought within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 11
+  - Standing Gate to Level 8:
+      description: "Two pillars with giant stone snakes wrapped around them rise from the muck. Chiseled into the lintel stone across the top are the words “DON THE CRYSTAL CROWN” in Dwarvish."
+      opening_method: "The gate opens for 1 minute if a creature wears King Melair’s crystal crown (see level 6, area 11d) while standing within 5 feet of it."
+      minimum_level: 11
 Level_12:
-  - Arch Gate to Level 6
-  - Mirror Gate to Level 10
-  - Standing Gate to Level 14
-  - Standing Gate to Level 19
+  - Arch Gate to Level 6:
+      description: "Carved into its keystone is an image of a hand pouring ale from a flagon."
+      opening_method: "If one pint or more of any liquid is poured on the floor within 5 feet of the arch, the gate opens for 1 minute."
+      minimum_level: 12
+  - Mirror Gate to Level 10:
+      description: "The mirror’s stone frame is carved with twisting vines, woven into which are the actual skulls of eleven human adventurers killed in Undermountain. Carved into the bottom of the frame are the following words in Celestial: “The dead know the secret.” "
+      opening_method: "Speaking the proper command word (“Axallian”) while standing in front of the mirror opens the gate for 1 minute."
+      minimum_level: 12
+  - Standing Gate to Level 14:
+      description: "Each standing stone has an inanimate minotaur skeleton embedded in it"
+      opening_method: "Any creature that touches one of the standing stones is targeted by a maze spell (save DC 22).\n\tTo open the gate, a creature must be trapped in the maze created by the spell, then escape. When the creature returns to the space it left, the gate opens for 1 minute."
+      minimum_level: 13
+  - Standing Gate to Level 19:
+      description: "Carved into the lintel stone spanning them is a large blood-red X. When a creature comes within 5 feet of the gate, rivulets of blood begin to seep from the standing stones."
+      opening_method: "The gate opens for 1 minute if a creature marked with a bloody X stands within 5 feet of it."
+      minimum_level: 15
 Level_13:
-  - Arch Gate to Level 6
+  - Arch Gate to Level 6:
+      description: "The arch is decorated with inlaid images of dancing goblins. Carved into the arch’s keystone is the letter D."
+      opening_method: "The gate opens for 1 minute if a creature stands within 5 feet of the arch and either sings a D note or plays a D note on a musical instrument."
+      minimum_level: 9
 Level_14:
-  - Arch Gate to Level 9
-  - Standing Gate to Level 12
-  - Arch Gate to Level 17
+  - Arch Gate to Level 9:
+      description: "It has the image of an open book carved into its keystone."
+      opening_method: "Holding an open book while standing within 5 feet of the arch causes the gate to open for 1 minute. The book turns to dust as the gate opens, even if it is a spellbook."
+      minimum_level: 13
+  - Standing Gate to Level 12:
+      description: "Each standing stone has an inanimate minotaur skeleton embedded in it"
+      opening_method: "Any creature that touches one of the standing stones is targeted by a maze spell (save DC 22).\n\tTo open the gate, a creature must be trapped in the maze created by the spell, then escape. When the creature returns to the space it left, the gate opens for 1 minute."
+      minimum_level: 13
+  - Arch Gate to Level 17:
+      description: "Carved into its keystone are three human-like stick figures holding hands."
+      opening_method: "If three humanoids hold hands while standing within 5 feet of the gate, it opens for 1 minute."
+      minimum_level: 14
 Level_15:
-  - Arch Gate to Level 17
-  - Arch Gate to Level 18
-  - Arch Gate to Level 20
+  - Arch Gate to Level 17:
+      description: "Carved into the arch’s keystone is an image of a six-fingered gauntlet."
+      opening_method: "The gate opens for 1 minute if a creature touches the arch with a six-fingered gauntlet"
+      minimum_level: 14
+  - Arch Gate to Level 18:
+      description: "A stone arch decorated with gold-inlaid images of soaring dragons. Carved into the wall above the arch are the following words in Draconic: “Only a dragon can unlock this gate.”"
+      opening_method: "The gate opens for 1 minute when a real or illusory dragon touches the arch. An artistic rendering of a dragon, such as a dragon-shaped figurine or a drawing of a dragon, also opens the gate."
+      minimum_level: 15
+  - Arch Gate to Level 20:
+      description: "This stone arch is made up of one hundred stone jigsaw pieces."
+      opening_method: "Only one piece of the arch can be removed at any given time. A detect magic spell reveals that one of the pieces (determined randomly) is magical. When that piece is removed from the arch, it disappears, and the gate opens for 1 minute. When the gate closes, the piece removed from the arch magically reappears in its proper place, and a different piece becomes magical and must be removed to reopen the gate.\n\tIf a wrong piece is removed from the arch, an adult white dragon magically appears in an unoccupied space within 60 feet of the arch and attacks any creature it can see. The dragon disappears when it is slain or after 1 minute. When the dragon disappears, the piece that was removed from the arch magically reappears in its previous place."
+      minimum_level: 16
 Level_17:
-  - Arch Gate to Level 14
-  - Arch Gate to Level 15
-  - Standing Gate to Level 19
+  - Arch Gate to Level 14:
+      description: "Carved into its keystone are three human-like stick figures holding hands."
+      opening_method: "If three humanoids hold hands while standing within 5 feet of the gate, it opens for 1 minute."
+      minimum_level: 14
+  - Arch Gate to Level 15:
+      description: "Carved into the arch’s keystone is an image of a six-fingered gauntlet."
+      opening_method: "The gate opens for 1 minute if a creature touches the arch with a six-fingered gauntlet"
+      minimum_level: 14
+  - Standing Gate to Level 19:
+      description: "Carved into the topped lintel is a symbol of an arrow."
+      opening_method: "If an arrow or a crossbow bolt is shot between the standing stones, the gate opens for 1 minute."
+      minimum_level: 15
 Level_18:
-  - Arch Gate to Level 6
-  - Arch Gate to Level 15
+  - Arch Gate to Level 6:
+      description: "Its sides are carved in the form of scantily clad elves (one male and one female) holding fingers to their lips in a gesture of silence."
+      opening_method: "If a silence spell is cast so that the arch is in the spell’s area, the gate opens for 1 minute."
+      minimum_level: 15
+  - Arch Gate to Level 15:
+      description: "A stone arch decorated with gold-inlaid images of soaring dragons. Carved into the wall above the arch are the following words in Draconic: “Only a dragon can unlock this gate.”"
+      opening_method: "The gate opens for 1 minute when a real or illusory dragon touches the arch. An artistic rendering of a dragon, such as a dragon-shaped figurine or a drawing of a dragon, also opens the gate."
+      minimum_level: 15
 Level_19:
-  - Standing Gate to Level 12
-  - Standing Gate to Level 17
-  - Standing Gate to Level 21
+  - Standing Gate to Level 12:
+      description: "Carved into the lintel stone spanning them is a large blood-red X. When a creature comes within 5 feet of the gate, rivulets of blood begin to seep from the standing stones."
+      opening_method: "The gate opens for 1 minute if a creature marked with a bloody X stands within 5 feet of it."
+      minimum_level: 15
+  - Standing Gate to Level 17:
+      description: "Carved into the topped lintel is a symbol of an arrow."
+      opening_method: "If an arrow or a crossbow bolt is shot between the standing stones, the gate opens for 1 minute."
+      minimum_level: 15
+  - Standing Gate to Level 21:
+      description: "Two crystal menhirs stand apart from eachother."
+      opening_method: "Striking either menhir with a hard object or targeting it with a shatter spell deals no damage but causes the standing stone to ring loudly, awakening the demon inside. Nothing else causes these demons to awaken. While outside its menhir, a nalfeshnee can be magically compelled to divulge the command word that activates the gate. A legend lore spell or similar magic also reveals the command word. The current word is “Kelserath,” but Halaster changes it every few days.\n\tThe gate opens for 1 minute if a creature speaks the proper command word within 10 feet of it."
+      minimum_level: 16
 Level_20:
-  - Arch Gate to Level 15
+  - Arch Gate to Level 15:
+      description: "This stone arch is made up of one hundred stone jigsaw pieces."
+      opening_method: "Only one piece of the arch can be removed at any given time. A detect magic spell reveals that one of the pieces (determined randomly) is magical. When that piece is removed from the arch, it disappears, and the gate opens for 1 minute. When the gate closes, the piece removed from the arch magically reappears in its proper place, and a different piece becomes magical and must be removed to reopen the gate.\n\tIf a wrong piece is removed from the arch, an adult white dragon magically appears in an unoccupied space within 60 feet of the arch and attacks any creature it can see. The dragon disappears when it is slain or after 1 minute. When the dragon disappears, the piece that was removed from the arch magically reappears in its previous place."
+      minimum_level: 16
 Level_21:
-  - Standing Gate to Level 19
+  - Standing Gate to Level 19:
+      description: "Two crystal menhirs stand apart from eachother."
+      opening_method: "Striking either menhir with a hard object or targeting it with a shatter spell deals no damage but causes the standing stone to ring loudly, awakening the demon inside. Nothing else causes these demons to awaken. While outside its menhir, a marilith can be magically compelled to divulge the command word that activates the gate. A legend lore spell or similar magic also reveals the command word. The current word is “Yuraj,” but Halaster changes it every few days.\n\tThe gate opens for 1 minute if a creature speaks the proper command word within 10 feet of it."
+      minimum_level: 16
 Level_22:
-  - Arch Gate to Level 23
+  - Arch Gate to Level 23:
+      description: "The arch’s keystone is carved with the visage of Halaster, whose eyes follow any creature that approaches the arch."
+      opening_method: "If any creature touches the arch, the face shouts out in Common: “Yield magic for safe passage!” A stone arm with a flat, outstretched hand then rises from the floor before the arch. If a magic item of at least uncommon rarity is placed into the hand, it sinks back into the floor with the item, which is teleported to Halaster’s study in area 37 of level 23. The gate then opens for 1 minute. If an appropriate magic item is not placed in the hand within 10 seconds of its appearance, it points to the nearest creature that Halaster’s visage can see. That creature must succeed on a DC 22 Constitution saving throw or be petrified."
+      minimum_level: 17
 Level_23:
-  - Arch Gate to Level 22
+  - Arch Gate to Level 22:
+      description: "The arch’s keystone is carved with the visage of Halaster, whose eyes follow any creature that approaches the arch."
+      opening_method: "Halaster can open the gate for 1 minute by touching the arch. The gate cannot otherwise be opened from this side."
+      minimum_level: 17

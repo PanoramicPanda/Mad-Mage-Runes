@@ -64,7 +64,12 @@ class FloorCaster
   end
 
   def gate_detail(gate)
-    puts "----- #{gate} -----"
+    gate_name = gate.keys[0]
+    puts "----- #{gate_name} -----"
+    puts "#{gate[gate_name]['description']}"
+    puts "Opening Method: #{gate[gate_name]['opening_method']}"
+    puts "Minimum Level: #{gate[gate_name]['minimum_level']}"
+    puts '-----'
   end
 
 end
