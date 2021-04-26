@@ -87,7 +87,7 @@ Level_6:
   - Arch Gate to Level 13:
       description: "The arch is decorated with inlaid images of dancing goblins. Carved into the arch’s keystone is the letter D."
       opening_method: "The gate opens for 1 minute if a creature stands within 5 feet of the arch and either sings a D note or plays a D note on a musical instrument."
-      minimum_level: 9
+      minimum_level: 12
   - Arch Gate to Level 18:
       description: "Its sides are carved in the form of scantily clad elves (one male and one female) holding fingers to their lips in a gesture of silence."
       opening_method: "If a silence spell is cast so that the arch is in the spell’s area, the gate opens for 1 minute."
@@ -186,7 +186,7 @@ Level_13:
   - Arch Gate to Level 6:
       description: "The arch is decorated with inlaid images of dancing goblins. Carved into the arch’s keystone is the letter D."
       opening_method: "The gate opens for 1 minute if a creature stands within 5 feet of the arch and either sings a D note or plays a D note on a musical instrument."
-      minimum_level: 9
+      minimum_level: 12
 Level_14:
   - Arch Gate to Level 9:
       description: "It has the image of an open book carved into its keystone."
